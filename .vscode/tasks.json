@@ -50,6 +50,28 @@
                 "cwd": "${workspaceFolder}/Pfeilerhof"
             },
             "problemMatcher": []
+        },
+        {
+            "label": "Add page",
+            "type": "shell",
+            "command": "bundle",
+            "args": [
+                "exec",
+                "jekyll",
+                "page",
+                "${input:pageName}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/Pfeilerhof"
+            },
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "pageName",
+            "description": "Name of the page",
+            "type": "promptString"
         }
     ]
 }
