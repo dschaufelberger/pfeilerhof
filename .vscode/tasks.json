@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "serve",
+            "label": "Serve",
             "type": "shell",
             "command": "bundle",
             "args": [
@@ -19,7 +19,7 @@
             "problemMatcher": []
         },
         {
-            "label": "build",
+            "label": "Build",
             "type": "shell",
             "group": {
                 "kind": "build",
@@ -29,7 +29,7 @@
             "args": [
                 "exec",
                 "jekyll",
-                "build",
+                "build"
             ],
             "options": {
                 "cwd": "${workspaceFolder}/Pfeilerhof"
@@ -40,7 +40,7 @@
             "problemMatcher": []
         },
         {
-            "label": "clean",
+            "label": "Clean",
             "type": "shell",
             "command": "jekyll",
             "args": [
