@@ -70,7 +70,7 @@
     "inputs": [
         {
             "id": "pageName",
-            "description": "Name of the page",
+            "description":"Name of the page",
             "type": "promptString"
         }
     ]
