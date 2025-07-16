@@ -12,6 +12,7 @@
         "jekyll",
         "serve",
         "--livereload",
+        "--force_polling"
       ],
       "options": {
         "cwd": "${workspaceFolder}/Pfeilerhof"
