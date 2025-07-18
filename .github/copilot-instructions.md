@@ -13,6 +13,7 @@ This repository uses [Jekyll](https://jekyllrb.com/) for static site generation.
 - IMPORTANT! Test your changes locally with `bundle exec jekyll build` before committing.
 - Avoid committing files in the `_site` directory; this folder is generated and should not be tracked.
 - Document any custom plugins or configuration changes in the repository.
+- Respect permalinks configured in the frontmatter of pages when creating new pages or modifying existing ones and when linking to pages within the site.
 
 By following these practices, you help maintain a clean, organized, and functional Jekyll site.
 
