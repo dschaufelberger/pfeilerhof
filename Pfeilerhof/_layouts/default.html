@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    {% include head.html %}
-  </head>
+
+  {% include head.html %}
+
   <body>
     <header>
       <div class="container">
@@ -13,18 +10,9 @@
         <p class="sr-only">Willkommen auf der Website des Pfeilerhofs</p>
       </div>
     </header>
-    <nav>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Start</a></li>
-        <li><a href="{{ '/pages/unser-hof.html' | relative_url }}">Unser Hof</a></li>
-        <li><a href="{{ '/pages/unser-hofladen.html' | relative_url }}">Hofladen</a></li>
-        <li><a href="{{ '/pages/das-team.html' | relative_url }}">Team</a></li>
-        <li><a href="{{ '/pages/events.html' | relative_url }}">Events</a></li>
-        <li><a href="{{ '/pages/kontakt.html' | relative_url }}">Kontakt</a></li>
-        <li><a href="{{ '/pages/impressum.html' | relative_url }}">Impressum</a></li>
-        <li><a href="{{ '/pages/datenschutzerklärung.html' | relative_url }}">Datenschutzerklärung</a></li>
-      </ul>
-    </nav>
+
+    {% include navigation.html %}
+
     <main class="container">
       {{ content }}
     </main>
