@@ -39,6 +39,7 @@ This project is built with Jekyll and leverages modern web standards:
 - **HTML5**: Use semantic HTML5 elements and features wherever possible to ensure accessibility, SEO, and maintainability.
 - **CSS**: Use the latest CSS features (such as custom properties, flexbox, grid, and modern selectors) to create responsive and maintainable layouts. SCSS is used for organization and maintainability.
 - **Liquid**: Jekyll's templating language is used for dynamic content and layout logic.
+- **SCSS**: Styles are written in SCSS for better organization and modularity. Use variables, mixins, and nesting to keep styles DRY (Don't Repeat Yourself).
 
 When adding or editing code, prefer modern, standards-based approaches. Only use polyfills or workarounds if absolutely necessary for required browser support.
 
@@ -53,3 +54,6 @@ All layouts should be designed to be responsive and mobile-first:
 
 Prioritize accessibility and performance in all layout decisions.
 
+## Code Style
+- Follow rules in the `.editorconfig` file for consistent coding styles across different editors.
+- Add empty line between SCCS rules to improve readability.
