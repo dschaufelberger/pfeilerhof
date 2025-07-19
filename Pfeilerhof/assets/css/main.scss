@@ -47,13 +47,6 @@ a {
 }
 
 // 3. Layout
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1.5rem 0;
-}
-
 nav {
   grid-row: 2;
 }
@@ -68,9 +61,6 @@ header {
 
 main {
   grid-row: 3;
-  padding: 2rem 0;
-  display: flex;
-  justify-content: center;
 }
 
 footer {
@@ -83,13 +73,11 @@ footer {
 }
 
 // 4. Responsive Helpers
-@media (max-width: 700px) {
-  .container {
-    width: 98%;
-  }
-
+@media (min-width: 60em) {
   main {
     padding: 1rem 0;
+    margin: 0 auto;
+    max-width: 1200px;
   }
 
   header,
