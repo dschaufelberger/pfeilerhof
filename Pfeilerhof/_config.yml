@@ -1,13 +1,5 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-title: "Pfeilerhof in Grünwettersbach" # the name of your site, e.g. ACME Corp.
-
-header_pages:
-  - unser-hofladen.md
-  - unser-hof.md
-  - das-team.md
-  - events.md
-  - kontakt.md
+title: "Pfeilerhof Grünwettersbach" # the name of your site, e.g. ACME Corp.
 
 timezone: Europe/Berlin
 strict_front_matter: true
-

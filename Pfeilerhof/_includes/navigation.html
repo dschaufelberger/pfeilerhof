@@ -1,8 +1,4 @@
-{%- assign page_names = site.header_pages -%}
-
 <nav class="site-navigation">
-  {%- for name in page_names-%}
-  {%- assign page = site.pages | where: "name", name | first -%}
-  <a href="{{page.url | relative_url }}">{{ page.title }}</a>
-  {%- endfor -%}
+  <a href="{% link index.md %}">Home</a>
+  <a href="{% link pages/events.md %}">Events</a>
 </nav>
