@@ -34,6 +34,11 @@ body {
   min-height: 100vh;
 }
 
+p {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
 a {
   color: $primary-color;
   text-decoration: none;
@@ -61,6 +66,11 @@ header {
 
 main {
   grid-row: 3;
+  padding: 0 1.5rem;
+
+  h1 {
+    text-align: center;
+  }
 }
 
 footer {
@@ -75,7 +85,6 @@ footer {
 // 4. Responsive Helpers
 @media (min-width: 60em) {
   main {
-    padding: 1rem 0;
     margin: 0 auto;
     max-width: 1200px;
   }
