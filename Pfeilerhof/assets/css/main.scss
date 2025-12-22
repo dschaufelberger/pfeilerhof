@@ -108,4 +108,8 @@ img.round {
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
+
+  &.left {
+    object-position: left;
+  }
 }

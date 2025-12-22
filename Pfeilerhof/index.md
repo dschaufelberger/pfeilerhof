@@ -7,7 +7,7 @@ title: "Der Pfeilerhof"
 
 # Der Pfeilerhof
 <div class="flex justify-center">
-<img class="round" src="./assets/images/Hühner.jpg">
+<img class="round left" src="./assets/images/Hofladen-außen.jpg">
 </div>
 
 Der Pfeilerhof befindet sich im regionalpark Schwarzwald Mitte - Nord und im Landschaftsschutzgebiet in Grünwettersbach.
