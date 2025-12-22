@@ -76,11 +76,12 @@ main {
 
 footer {
   grid-row: 4;
+  padding: 1.5rem 0 1rem 0;
   background: #222;
   color: #fff;
   text-align: center;
-  padding: 1.5rem 0 1rem 0;
   font-size: 0.95rem;
+  font-family: 'Segoe Print', ui-sans-serif, sans-serif;
 }
 
 // 4. Responsive Helpers
