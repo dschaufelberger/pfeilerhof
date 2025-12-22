@@ -1,4 +1,4 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.pfeilerhof.de" # the base hostname & protocol for your site, e.g. http://example.com
 title: "Pfeilerhof Grünwettersbach" # the name of your site, e.g. ACME Corp.
 
 timezone: Europe/Berlin
