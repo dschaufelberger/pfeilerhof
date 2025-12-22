@@ -3,12 +3,15 @@
 
 @import "../../_sass/variables";
 @import "../../_sass/navigation";
+@import "../../_sass/images";
+@import "../../_sass/typography";
+@import "../../_sass/layout";
 
 
 // 2. CSS Reset & Base
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: $text-base;
   scroll-behavior: smooth;
 }
 
@@ -25,7 +28,7 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  font-family: $font-stack;
+  font-family: $font-sans;
   color: $text-color;
   background: $secondary-color;
   line-height: 1.6;
@@ -58,8 +61,6 @@ nav {
 
 header {
   grid-row: 1;
-  background: $primary-color;
-  color: #fff;
   padding: 1.5rem 0;
   text-align: center;
 }
