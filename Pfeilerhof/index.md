@@ -6,6 +6,10 @@ title: "Der Pfeilerhof"
 <section markdown="1">
 
 # Der Pfeilerhof
+<div class="flex justify-center">
+<img class="round" src="./assets/images/Hühner.jpg">
+</div>
+
 Der Pfeilerhof befindet sich im regionalpark Schwarzwald Mitte - Nord und im Landschaftsschutzgebiet in Grünwettersbach.
 Ein typisches Merkmal der Umgebung sind die alten erhaltenswerten Streuobstwiesen mit vielen wildlebenden Tieren und Insekten.
 Durch unsere nachhaltige Landbewirtschaftung mit Schafen pflegen wir auf natürliche Weise diese schützenswerte Kulturlandschaft.
@@ -18,7 +22,9 @@ Tierwohl steht bei uns an erster Stelle. Deshalb halten wir unsere Tiere ganzjä
 
 # Unser Hofladen
 ## Hauseigene Produkte
-
+<div class="flex justify-center">
+<img class="round" src="./assets/images/Eier.jpg">
+</div>
 - Freilandeier
 - Dosenwurst aus Schafsfleisch
 - Saisonal Lammfleisch
@@ -32,7 +38,9 @@ und 10:30 Uhr)
 - Suppen aus hofeigenen Produkten im Glas
 
 ## Regionale Produkte
-
+<div class="flex justify-center">
+<img class="round" src="./assets/images/Tomaten.jpg">
+</div>
 - Äpfel vom Obsthof Wenz
 - Kartoffeln und Zwiebeln vom Hof Uwe Lengert
 - Milchprodukte vom St. Vinzenzhof
