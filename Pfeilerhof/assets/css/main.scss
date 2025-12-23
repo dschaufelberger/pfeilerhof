@@ -1,17 +1,17 @@
 ---
 ---
 
-@import "variables";
-@import "navigation";
-@import "images";
-@import "typography";
-@import "layout";
+@use "variables";
+@use "navigation";
+@use "images";
+@use "typography";
+@use "layout";
 
 
 // 2. CSS Reset & Base
 html {
   box-sizing: border-box;
-  font-size: $text-base;
+  font-size: variables.$text-base;
   scroll-behavior: smooth;
 }
 
@@ -30,8 +30,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', ui-sans-serif, sans-serif;
-  color: $text-color;
-  background: $secondary-color;
+  color: variables.$text-color;
+  background: variables.$secondary-color;
   line-height: 1.6;
   display: grid;
   grid-template-rows: auto auto 1fr auto;
@@ -44,13 +44,13 @@ p {
 }
 
 a {
-  color: $primary-color;
+  color: variables.$primary-color;
   text-decoration: none;
   transition: color 0.2s;
 
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: variables.$accent-color;
     outline: none;
   }
 }
@@ -101,7 +101,7 @@ footer {
 
 // 5. Accessibility
 a:focus-visible {
-  outline: 2px solid $accent-color;
+  outline: 2px solid variables.$accent-color;
   outline-offset: 2px;
 }
 
