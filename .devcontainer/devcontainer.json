@@ -26,7 +26,8 @@
         "sissel.shopify-liquid",
         "DavidAnson.vscode-markdownlint",
         "bierner.markdown-yaml-preamble",
-        "EditorConfig.EditorConfig"
+        "EditorConfig.EditorConfig",
+        "Shopify.ruby-lsp"
       ]
     }
   },
