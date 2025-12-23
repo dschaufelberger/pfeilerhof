@@ -21,7 +21,8 @@ html {
   box-sizing: inherit;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -68,7 +69,8 @@ main {
   grid-row: 3;
   padding: 0 1.5rem;
 
-  h1,h2 {
+  h1,
+  h2 {
     text-align: center;
     font-family: 'Segoe Print', ui-sans-serif, sans-serif;
   }
