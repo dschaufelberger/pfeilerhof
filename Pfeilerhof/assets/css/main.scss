@@ -29,7 +29,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', ui-sans-serif, sans-serif;
+  font-family: variables.$font-family-sans-serif;
   color: variables.$text-color;
   background: variables.$secondary-color;
   line-height: 1.6;
@@ -72,7 +72,6 @@ main {
   h1,
   h2 {
     text-align: center;
-    font-family: 'Segoe Print', ui-sans-serif, sans-serif;
   }
 }
 
@@ -83,7 +82,6 @@ footer {
   color: #fff;
   text-align: center;
   font-size: 0.95rem;
-  font-family: 'Segoe Print', ui-sans-serif, sans-serif;
 }
 
 // 4. Responsive Helpers
