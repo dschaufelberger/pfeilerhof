@@ -17,7 +17,7 @@
   // "forwardPorts": [],
 
   // Uncomment the next line to run commands after the container is created.
-  "postCreateCommand": "bundle install --gemfile ${containerWorkspaceFolder}/Pfeilerhof/Gemfile",
+  // "postCreateCommand": "bundle install --gemfile ${containerWorkspaceFolder}/Pfeilerhof/Gemfile",
 
   // Configure tool-specific properties.
   "customizations": {
